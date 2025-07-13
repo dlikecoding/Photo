@@ -1,6 +1,11 @@
-Photo Gallery Application
+# 📸 Photo Gallery App
 
-Our Photo Gallery is a modern, full-stack media management solution built with Bun on the backend and SolidJS on the frontend. It provides users with a seamless experience to store, manage, and view images and videos directly from the server, with fast performance and an intuitive interface.
+A high-performance, full-stack photo and video gallery built with **Bun (Backend)** and **SolidJS (Frontend)**.  
+Easily store, search, and stream medias directly from the server—including **Live Photos**—with AI-powered captioning, admin controls, and advanced file handling.
+
+[![License](https://img.shields.io/github/license/yourusername/photogallery)](LICENSE)
+[![Stars](https://img.shields.io/github/stars/yourusername/photogallery?style=social)](https://github.com/yourusername/photogallery/stargazers)
+
 
 Key Features:
 Media Storage & Streaming
