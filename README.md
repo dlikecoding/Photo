@@ -48,23 +48,23 @@ Admins have powerful tools to:
 
 ## 🖼️ Demo
 
-![Photo Gallery Demo](demo/demo.gif)  
-_Live search and smooth media playback._
+![Photo Gallery Demo](demo/demo.gif)
 
----
+
+![Basic Map](demo/struct.png)
 
 ## 🚀 Quickstart
 
 ```bash
 # Clone the repo
 git clone https://github.com/dlikecoding/Photo.git
-cd photogallery
+cd Photo
 
 # Install backend dependencies
 bun install
 
 # Start the server
-bun run start
+bun index.js
 
 
 
