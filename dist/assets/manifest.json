@@ -1,0 +1,24 @@
+{
+  "short_name": "PhotoX",
+  "name": "Coresai Images",
+  "icons": [
+    {
+      "src": "./favicon-JLouXyOv.ico",
+      "sizes": "57x48",
+      "type": "image/x-icon"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Photo",
+      "short_name": "pt",
+      "url": "/library",
+      "icons": [{ "src": "./favicon-JLouXyOv.ico", "sizes": "57x57", "type": "image/x-icon" }]
+    }
+  ],
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#000000",
+  "theme_color": "#000000",
+  "orientation": "portrait"
+}
