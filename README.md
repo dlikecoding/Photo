@@ -25,16 +25,21 @@ Easily store, search, and stream media directly from the server—including **Li
 ## 📦 Key Capabilities
 
 ### 📂 Media Storage & Streaming
+
 Upload and stream images, videos, and Live Photos (iOS-style), served efficiently via **Bun**.
 
 ### 🔎 AI Captioning & Smart Search
+
 Automatically generate searchable AI captions for all uploaded media.
 
 ### 🔐 User Access Control
+
 Admins can activate and manage users, providing secure access to the gallery.
 
 ### 🛠️ Admin Tools
+
 Admins have powerful tools to:
+
 - Backup & restore media and metadata
 - Reduce video FPS across the library
 - Import media in bulk by specifying server paths
@@ -43,8 +48,8 @@ Admins have powerful tools to:
 
 ## 🖼️ Demo
 
-![Photo Gallery Demo](demo.gif)  
-*Live search and smooth media playback.*
+![Photo Gallery Demo](demo/demo.gif)  
+_Live search and smooth media playback._
 
 ---
 
@@ -52,7 +57,7 @@ Admins have powerful tools to:
 
 ```bash
 # Clone the repo
-git clone https://github.com/yourusername/photogallery.git
+git clone https://github.com/dlikecoding/Photo.git
 cd photogallery
 
 # Install backend dependencies
@@ -70,3 +75,4 @@ bun run start
 
 
 
+```
