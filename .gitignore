@@ -1,5 +1,5 @@
-save_processed
-blip_full_model.pth.nosync
+model.safetensors
+
 .* 
 ./erd
 .gitignore

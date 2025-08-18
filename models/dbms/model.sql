@@ -108,7 +108,7 @@ CREATE TABLE IF NOT EXISTS multi_schema."Media"
 
 CREATE TABLE IF NOT EXISTS multi_schema."Passkeys"
 (
-    cred_id character varying(50) COLLATE pg_catalog."default" NOT NULL,
+    cred_id character varying(128) COLLATE pg_catalog."default" NOT NULL,
     cred_public_key bytea NOT NULL,
     "RegisteredUser" uuid NOT NULL,
     counter smallint NOT NULL,

@@ -1607,14 +1607,7 @@ var backupFiles = async (stream) => {
     await stream.writeln(`\u274C Failed! Backup storage does not have enough spaces.`);
     return false;
   }
-  const process2 = Bun.spawn([
-    "rsync",
-    "-ahv",
-    "--delete",
-    '--exclude={"/dev/*","/proc/*","/sys/*","/tmp/*","/run/*","/mnt/*","/media/*","/lost+found"}',
-    `${Bun.env.MAIN_PATH}/`,
-    `${Bun.env.BACKUP_DATA}/`
-  ], {
+  const process2 = Bun.spawn(["rsync", "-ahv", "--delete", '--exclude={"/dev/*","/proc/*","/sys/*","/tmp/*","/run/*","/mnt/*","/media/*"}', `${Bun.env.MAIN_PATH}/`, `${Bun.env.BACKUP_DATA}/`], {
     stderr: "pipe",
     stdout: "pipe"
   });
