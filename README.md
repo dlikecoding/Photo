@@ -51,7 +51,7 @@ Admins have powerful tools to:
 ![Photo Gallery Demo](demo/demo.gif)
 
 
-![Basic Map](demo/struct.png)
+![Basic Map](https://raw.githubusercontent.com/dlikecoding/Demos/Photo/struct.png)
 
 ## 🚀 Quickstart
 
