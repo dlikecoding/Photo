@@ -48,7 +48,7 @@ Admins have powerful tools to:
 
 ## 🖼️ Demo
 
-![Photo Gallery Demo](demo/demo.gif)
+![Photo Gallery Demo](https://github.com/dlikecoding/Demos/blob/f3f9c6cb415cdba6d0eb6e45dd9d389cdc3df6c1/Photo/demo.gif)
 
 
 
